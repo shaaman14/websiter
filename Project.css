@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+ul{
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+    font: bold;
+    font-family: "Berlin Sans FB";
+    font-size: calc(8px + 1vw);
+
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+nav li {
+    margin: 7px;
+    text-decoration: none;
+    padding-left: 4px;
+}
+
+nav a {display: inline-block;
+    padding: 15px 0;
+    text-decoration: none;
+    color: black;
+    font-size: calc(8px + 1vw);}
+
+#image {
+
+}
+#work{
+   text-align: center;
+    font-size:100px;
+    font-family: "Blackadder ITC";
+    font: bold;
+}
+
+ul li a:hover{
+color: #8D8741;
+}
+
+.box{
+    border: 1px solid black;
+    width: 1240px;
+    align-self: center;
+
+}
+------------------------------
+section{
+    padding: 70px 0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-gap: 30px;
+    margin: 0 15px;
+}
+.pow{
+width: 60%;
+    margin: 0 auto;
+
+}
+
+header h1{
+    margin: 0;
+    font-size: 50px;
+    color: #1c1c1c;
+}
+.main{
+    position: relative;
+    overflow: hidden;
+    max-height: 580px;
+    height: 100%;
+    box-sizing: border-box;
+    /*box-shadow: 0 2px 10px #ccc;*/
+    transition: all .5s;
+}
+
+.maincontent{
+position: absolute;
+    left: 0;
+    bottom: -38px;
+    width: 88.4%;
+    color: #fff;
+    padding: 10px 5px;
+    background: linear-gradient(45deg, rgba(21,82,153,1) 0%, rgba(144,192,229.5)100%) ;
+
+}
+
+.maincontent h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Futura;
+
+}
+
+.maincontent h3 span {
+    display: block;
+    font-size: 60%;
+    margin-top: 600;
+    color: rgba(52,73,94,1.0);
+
+}
+
+.maincontent a{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.maincontent .btn {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    font-weight: 400;
+    text-align: right;
+
+
+}
+.maincontent .btn:hover{
+    background: rgba(52, 152, 219,1.0);
+    transition: all .5s;
+    text-decoration: none;
+    text-align: center;
+}
+.maincontent .btn a:hover{
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.main:hover .maincontent{
+    bottom: 0;
+    transition: all .5s;
+
+}
+.main:hover img{
+    transform: scale(1.1);
+    transition: all .5s;
+
+}
+.btn{
+    text-align: center;
+}
